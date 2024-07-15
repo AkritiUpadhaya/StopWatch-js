@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-image: url(im.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+     height: 40%;
+     background-color: beige;
+     width: 50%;
+     border-radius: 30px;
+}
+.container .timer{
+padding: 30px 20px;
+font-size: 60px;
+}
+.buttons{
+    margin-top: 30px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+button{
+    font-size: 30px;
+    margin: 0 10px;
+}
+#startbtn{
+    background-color: green ;
+    color: #fff;
+}
+#pausebtn{
+    background-color: orange;
+    color: #fff;
+    display: none;
+}
+#restartbtn{
+    background-color: red;
+    color: #fff;
+}
